@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaaaan SMP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #444;
+            padding: 20px 0;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            color: #888;
+        }
+        input, textarea, button {
+            margin: 5px;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #555;
+            color: white;
+        }
+        button:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Yaaaan SMP</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#members">Members</a>
+            <a href="#join">Join Us</a>
+            <a href="#rules">Rules</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Yaaaan SMP</h2>
+        <p>Yaaaan SMP is a normal survival SMP featuring 10 YouTuber players in its first season. Explore, build, and survive alongside talented creators!</p>
+    </section>
+
+    <section id="members">
+        <h2>Members</h2>
+        <p>1st Member: <strong>Utsi_Playz</strong> (Owner) - <a href="https://www.youtube.com/@Utsi_Playz" target="_blank">Channel Link</a></p>
+        <p>2nd Member: <strong>Deadpool</strong> - <a href="https://www.youtube.com/@Deadly_Chirag" target="_blank">Channel Link</a></p>
+        <p>More members coming soon!</p>
+    </section>
+
+    <section id="join">
+        <h2>Join Yaaaan SMP</h2>
+        <p>If you want to join, please fill out the form below:</p>
+        <form action="send.php" method="POST">
+            <input type="text" name="username" placeholder="Minecraft Username" required><br>
+            <input type="text" name="discord" placeholder="Discord ID" required><br>
+            <textarea name="reason" placeholder="Why do you want to join?" rows="3" required></textarea><br>
+            <textarea name="skills" placeholder="Your skills and experience" rows="3" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="rules">
+        <h2>Rules and Guidelines</h2>
+        <ul>
+            <li>Be respectful to others.</li>
+            <li>No cheating, hacking, or exploiting.</li>
+            <li>No griefing or stealing.</li>
+            <li>Respect other players’ builds.</li>
+            <li>Collaborate and communicate effectively.</li>
+            <li>Breaking rules may result in a permanent ban.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Follow us on social media for updates and news!<br>
+        <a href="https://discord.gg/RR42QsAy" target="_blank">Join our Discord</a><br>
+        <a href="https://www.instagram.com/ananrajpoot90/" target="_blank">Follow on Instagram</a></p>
+        <p>&copy; 2025 Yaaaan SMP. All rights reserved.</p>
+    </footer>
+</body>
+</html>
